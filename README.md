@@ -207,3 +207,6 @@ elasticsearch:
 ```
 
 This will store elasticsearch data inside `/path/to/storage`.
+
+Relevant use case
+1. http://blog.webkid.io/visualize-datasets-with-elk/

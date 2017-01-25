@@ -1,3 +1,9 @@
+1) security group open port 5601, 9200
+2) change /home/ubuntu/docker-elk/kibana/configure -> yml elasticsearch url = {IP of the EC2}:9200
+3) Docker ELK stack - https://github.com/deviantony/docker-elk/blob/master/README.md
+4) make sure to run: sudo sysctl -w vm.max_map_count=262144
+5) http://{EC2 IP}:5601
+
 # Docker ELK stack
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

@@ -18,7 +18,7 @@ Based on the official images:
 * ELK 5 in Vagrant: https://github.com/deviantony/docker-elk/tree/vagrant
 * ELK 5 with Search Guard: https://github.com/deviantony/docker-elk/tree/searchguard
 
-**Notes***
+**Notes***: For AWS EC2 
 
 1) security group open port 5601, 9200
 

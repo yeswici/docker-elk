@@ -18,7 +18,7 @@ Based on the official images:
 * ELK 5 in Vagrant: https://github.com/deviantony/docker-elk/tree/vagrant
 * ELK 5 with Search Guard: https://github.com/deviantony/docker-elk/tree/searchguard
 
-##Notes***
+**Notes***
 1) security group open port 5601, 9200
 2) change /home/ubuntu/docker-elk/kibana/configure -> yml elasticsearch url = {IP of the EC2}:9200
 3) Docker ELK stack - https://github.com/deviantony/docker-elk/blob/master/README.md
